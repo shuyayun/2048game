@@ -1,0 +1,66 @@
+/*header开始*/
+header{
+     display: block;
+     margin: 10px auto;
+     font-weight: bold;
+     width: 500px;
+     background: #FDF5E6;
+     border-radius: 25px;
+}
+header h1,a,p{
+	text-align: center;
+}
+header h1{
+	padding: 5px;
+	margin: 5px;
+}
+header a{
+	display: block;
+	text-decoration: none;
+	background:#D2691E;
+	width:100px;
+	margin: 0 auto;
+	padding: 6px;
+	border-radius: 6px;
+	color: white;
+}
+header p{
+	background:#bbada0;
+	width:100px;
+	margin: 5px auto 5px auto;
+	border-radius: 6px;
+	padding: 6px;
+}
+/*header结束*/
+/*conatainer开始*/
+#grid-container{
+    width: 460px;
+    height: 460px;
+    padding: 20px;
+    background: #bbada0;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 25px;
+}
+.grid-cell{
+	width: 100px;
+	height: 100px;
+	border-radius:6px;
+	background-color: #ccc0b3;
+	position: absolute;
+
+
+}
+.num-cell{
+	position: absolute;
+	border-radius:6px;
+	font-size: 60px;
+	font-weight: bold;
+	font-family: Arial,Georgia,Serif ;
+	line-height: 100px;
+	text-align: center;
+	
+}
+
+/*conatainer结束*/
+
